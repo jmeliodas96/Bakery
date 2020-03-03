@@ -6,7 +6,10 @@ namespace Bakery.Data
 {
     public class BakeryContext : DbContext
     {
+        //context for product model
         public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
+
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

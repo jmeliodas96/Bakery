@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repository\\test-demos\\Bakery\\Bakery.csproj": {}
+    "C:\\Users\\Jimmy\\projects\\web\\Bakery\\Bakery.csproj": {}
   },
   "projects": {
-    "C:\\Repository\\test-demos\\Bakery\\Bakery.csproj": {
+    "C:\\Users\\Jimmy\\projects\\web\\Bakery\\Bakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repository\\test-demos\\Bakery\\Bakery.csproj",
+        "projectUniqueName": "C:\\Users\\Jimmy\\projects\\web\\Bakery\\Bakery.csproj",
         "projectName": "Bakery",
-        "projectPath": "C:\\Repository\\test-demos\\Bakery\\Bakery.csproj",
-        "packagesPath": "C:\\Users\\Bpalacio\\.nuget\\packages\\",
-        "outputPath": "C:\\Repository\\test-demos\\Bakery\\obj\\",
+        "projectPath": "C:\\Users\\Jimmy\\projects\\web\\Bakery\\Bakery.csproj",
+        "packagesPath": "C:\\Users\\Jimmy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jimmy\\projects\\web\\Bakery\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bpalacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Jimmy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
