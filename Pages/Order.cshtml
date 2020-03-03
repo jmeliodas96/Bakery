@@ -23,27 +23,27 @@
                 </li>
                 <li class="email">
                     <div class="form-group">
-                        <label asp-for="OrderEmail"></label>
-                        <input asp-for="OrderEmail" class="form-control form-control-sm" />                
-                        <span asp-validation-for="OrderEmail"></span>
+                        <label asp-for="Order.OrderEmail"></label>
+                        <input asp-for="Order.OrderEmail" class="form-control form-control-sm" />                
+                        <span asp-validation-for="Order.OrderEmail"></span>
                     </div>
                 </li>
                 <li class="shipping">
                     <div class="form-group">
-                        <label asp-for="OrderShipping"></label>
-                        <textarea rows="4" asp-for="OrderShipping" class="form-control form-control-sm"></textarea>               
-                        <span asp-validation-for="OrderShipping"></span>
+                        <label asp-for="Order.OrderShipping"></label>
+                        <textarea  rows="4" asp-for="Order.OrderShipping" class="form-control form-control-sm"></textarea>               
+                        <span asp-validation-for="Order.OrderShipping"></span>
                     </div>
                 </li>
                 <li class="quantity">
                     <div class="form-group row">
-                        <label asp-for="OrderQuantity" class="col-1 col-form-label"></label>
-                        <input asp-for="OrderQuantity" class="form-control form-control-sm"/>
+                        <label asp-for="Order.OrderQuantity" class="col-1 col-form-label"></label>
+                        <input asp-for="Order.OrderQuantity" class="form-control form-control-sm"/>
                         x
                         <span class="order-calc" id="orderPrice">@Model.Product.Price.ToString("f")</span>
                         =
                         <span class="order-calc" id="orderTotal">@Model.Product.Price.ToString("f")</span>
-                        <span asp-validation-for="OrderQuantity"></span>
+                        <span asp-validation-for="Order.OrderQuantity"></span>
                     </div>
                 </li>
             </ul>
